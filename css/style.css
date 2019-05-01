@@ -57,7 +57,7 @@ footer{
     margin-left: 15px;
 }
 
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 365px){
     .omoverskrift{
         font-size: 1.8rem;
         padding-bottom: 2vh;
@@ -69,14 +69,22 @@ footer{
         font-size: 1.8rem;
     }
 }
+@media only screen and (min-width: 1300px){
+    .omcitat{
+        margin-left: 20%; margin-right: 20%;
+    }
+}
 @media only screen and (min-width: 1100px){
     .omoverskrift{
         font-size: 7vh;
 
     }
+
+
     .omcitat{
         font-size: 3vh;
-        margin-left: 20%; margin-right: 20%;
+        margin-left: 12%; margin-right: 12%;
+        line-height: 1.7;
     }
     h2{
         font-size: 7vh;
